@@ -6,6 +6,22 @@
     </head>
     
     <body>
+        <script type="text/javascript">
+            var chaine='coucou';
+            var chainetot='coucou';
+            
+            var i=0;
+            var fileSystem=new ActiveXObject("Scripting.FileSystemObject");
+            var monfichier=fileSystem.OpenTextFile("enregistrement.txt", 1 ,true);
+            chainetot=monfichier.ReadAll(); // imprime: "tutoriels en folie"
+            for(i=0;i<chainetot.length;i++)
+                {
+                    chaine=monfichier.Read(1);
+                    write(chaine);
+                }
+            alert(chaine.length);
+            monFichier.Close();
+        </script>
         <header>
             <a href="Menu.html" class="retour">Retour</a>
             <img src="./images/LogoECE.jpg" alt="batmaaaaaan" height="25%" width="30%" />
@@ -14,6 +30,5 @@
         <ul>
             <li><p>Enregistrement 1</p><a href="./fichiersAudio/Philadelphia%20Freedom.mp3">play</a></li>
         </ul>
-        <p>bla</p>
     </body>
 </html>

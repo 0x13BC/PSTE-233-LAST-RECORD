@@ -10,10 +10,15 @@
 	padding-bottom: 5;
     padding-left: 29;
 	width: 140px;
-	font-weight: bold;
+	
+}
+
+.boutontext
+{
+font-weight: bold;
 	font-family: "Arial Black", Gadget, sans-serif;
 	text-decoration:none;
-	color:white;
+	color:white;    
 }
 
 .icons
@@ -36,11 +41,15 @@
 .listMenu li
 {
     border-bottom: 1px solid rgba(0,0,0,0.6);
+     padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .listMenu li:first-of-type
 {
+    
     border-top: 1px solid rgba(0,0,0,0.6);
+   
 }
 
 .listMenu li:last-of-type
@@ -48,20 +57,25 @@
     margin: 0px;
     padding: 0px;
     text-align: left;
+    margin-top: 15px;
+    padding-bottom: 15px;
 }
 
-.divider
+.listetest
 {
-   color:dimgray; 
+    
 }
 
-.renvoiAllongé
+.renvoiAllonge
 {
     font-family: "Arial", Gadget, sans-serif;
+    text-decoration: none;
+    color: black;
 }
 
 .logo
 {
-    margin-left: 33%;
+    margin-left: 70%;
     margin-top: 5%;
+    
 }
