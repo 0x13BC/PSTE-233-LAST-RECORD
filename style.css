@@ -1,21 +1,38 @@
 .boutonStart
 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30%;
-    margin-bottom: auto;
-	background-color: rgb(15,150,233);
-	border-radius:50px;
-	padding-top: 5;
-	padding-bottom: 5;
-    padding-left: 29;
-	width: 140px;
-	
+    background-color:#4570ba;
+	-moz-border-radius:42px;
+	-webkit-border-radius:42px;
+	border-radius:42px;
+	border:2px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:1.1em;
+	font-weight:bold;
+	padding:13px 73px;
+	text-decoration:none;
+	text-shadow:2px 2px 2px #16191f;
+    width: 5em;
+    height: 1.4em
 }
 
 .boutontext
 {
-font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
 	font-family: "Arial Black", Gadget, sans-serif;
 	text-decoration:none;
 	color:white;    
@@ -24,10 +41,11 @@ font-weight: bold;
 .icons
 {
     font-size: 60px;
-    margin-top: 20%;
+    margin-top: 40%;
     text-align: center;
     letter-spacing: 30px;
-    margin-left: 10%;
+    padding-left: 20px;
+    
 }
 
 #retourLigne
