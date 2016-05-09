@@ -1,3 +1,8 @@
+body
+{
+    background-image: url("./images/fond.jpg");
+}
+
 .boutonStart
 {
     position: absolute;
@@ -45,6 +50,7 @@
     text-align: center;
     letter-spacing: 30px;
     padding-left: 20px;
+    color: #ffffff;
     
 }
 
