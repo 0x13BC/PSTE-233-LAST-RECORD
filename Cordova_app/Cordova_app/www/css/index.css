@@ -1,4 +1,6 @@
-﻿.boutonStart
+﻿
+
+.boutonStart
 {
     position: absolute;
     top: 50%;
@@ -45,6 +47,7 @@
     text-align: center;
     letter-spacing: 30px;
     padding-left: 20px;
+    color: #ffffff;
     
 }
 
@@ -93,7 +96,27 @@
 
 .logo
 {
-    margin-left: 70%;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
     margin-top: 5%;
+    width: 20em;
+    height: 10em;
+}
+
+body
+{
+    background-image: url("../images/fond.jpg");
     
+}
+
+.big
+{
+    width:20em;
+    height:20em;
+}
+.small
+{
+    width:05em;
+    height:05em;
 }
